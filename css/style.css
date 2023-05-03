@@ -50,6 +50,24 @@ h1{
 MAIN
 */
 
+button{
+    border-radius: 30%;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.list{
+    padding-left: 25px;
+}
+
+.section{
+    display: block;
+    padding: 15px;
+}
+
 .nav{
     margin-top: 40px;
     margin-bottom: 3px;
@@ -77,6 +95,25 @@ MAIN
     border: 1px solid #C9CED3;
 }
 
+.editorial{
+    background-color: #45ABEA;
+}
+.goals{
+    background-color: #9C72E4;
+}
+.recruiting{
+    background-color: #64C0A9;
+}
+.mobile{
+    background-color: #F29E33;
+}
+.website{
+    background-color: #D863A1;
+}
+.sales{
+    background-color: #B0C926;
+}
+
 .text{
     padding: 30px;
     line-height: 30px;
@@ -98,4 +135,18 @@ MAIN
 .not-done{
     border: 1px solid red;
     color: red;
+}
+
+h2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+br{
+    
 }
