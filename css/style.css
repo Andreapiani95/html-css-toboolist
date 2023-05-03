@@ -20,13 +20,21 @@ body{
     background-color: #F6F8F9;
 }
 
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.background-white{
+    background-color: white;
+}
+
 /*
 HEADER
 */
 
 header{
-    background-color: white;
-    padding: 1%;
+     padding: 1%;
 }
 
 h1{
@@ -36,4 +44,58 @@ h1{
 
 #main-logo{
     vertical-align: middle;
+}
+
+/*
+MAIN
+*/
+
+.nav{
+    margin-top: 40px;
+    margin-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+.nav-button{
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.available{
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+
+.unavailable{
+    background-color: transparent;
+    color: #C9CED3;
+    border: 1px solid #C9CED3;
+}
+
+.text{
+    padding: 30px;
+    line-height: 30px;
+}
+.check{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.done{
+    border: 1px solid green;
+    color: green;
+}
+
+.not-done{
+    border: 1px solid red;
+    color: red;
 }
